@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&family=Roboto:wght@300&family=Rubik+Broken+Fax&family=Rubik+Doodle+Shadow&display=swap');
+@media (max-width:500){
+    .contaner{
+        width: 500px;
+        margin: auto;
+    }
+}
+
+#photo {
+    block-size: 250px;
+    border: 2px solid black;
+    border-radius: 2em;
+    box-shadow:  4px 4px 14px rgba(0, 0, 0, 0.629) ;
+}
+.info {
+    display: flex;
+}
+
+body {
+    background: #edd7b3;
+    
+}
+
+.block1 span {
+    font-size: 80%;
+}
+
+.block1 p {
+    font-size: 20px;
+}
+.block1 {
+    background: rgb(203, 179, 114);
+    margin-top: 10px;
+    margin-left: 40px;
+    
+}
+
+
+.card {
+    font-family: 'Light 300', 'sans-serif';
+    padding-left: 10px;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    border-bottom: 4px solid #a67a32;
+    transition: all .2s;
+   
+}
+
+.block2 {
+    background: rgb(203, 179, 114);
+    margin-top: 20px;
+}
+.footer{
+    background: rgb(190, 153, 18);
+}
+
+.contaner{
+    /* width: 800px; */
+    /* margin: auto; */
+}
+#hr {
+    block-size: 2px;
+    
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.3rem;
+}
+
+a:hover{
+    text-decoration: underline;
+
+}
+
+.list{
+    padding: 0 20px;
+}
+
+.list li{
+    color:#71693b;
+    margin-bottom: 10px;
+}
+.form h2{
+margin: 10px 0;
+text-align: center;
+}
+.form-row{
+    margin-bottom: 10px;
+    display: flex;
+}
+.form-row .form-group{
+    /* display: inline-block; */
+    margin-right: 20px;
+    width: 50%;
+    /* width: calc(50% - 20px); */
+}
+.form-row .form-group:last-child {
+    margin-right: 0;
+}
+.form-group label {
+        display: block;
+        font-size:14px;
+}
+.form-group input, .form-group textarea {
+    width: 98%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    outline: none;
+    font-family: inherit;
+}
+.form-group textarea{
+    height: 100px!important;
+    width: 781px!important;
+}
